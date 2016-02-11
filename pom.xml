@@ -13,17 +13,19 @@
     This library is distributed in the hope that it will be useful, but WITHOUT
     ANY WARRANTY.
 
+    Forked by willies952002 for Domnian
+
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.schwering</groupId>
+    <groupId>com.domnian</groupId>
     <artifactId>irclib</artifactId>
     <version>2.0.0.Alpha4-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <name>IRClib</name>
-    <description>A Java Internet Relay Chat library</description>
+    <description>A Java Internet Relay Chat library - Domnian Fork</description>
     <url>http://moepii.sourceforge.net/</url>
     <inceptionYear>2006</inceptionYear>
     <licenses>
@@ -49,33 +51,23 @@
             <name>Christoph Schwering</name>
             <email>schwering@gmail.com</email>
         </developer>
+        <developer>
+            <id>willies952002</id>
+            <name>William Surgeon</name>
+            <email>admiN@domnian.com</email>
+        </developer>
     </developers>
 
-    <mailingLists>
-        <mailingList>
-            <name>irclib-dev</name>
-            <subscribe>irclib-dev@googlegroups.com</subscribe>
-            <unsubscribe>irclib-dev-unsubscribe@googlegroups.com</unsubscribe>
-            <archive>http://groups.google.com/group/irclib-dev/</archive>
-        </mailingList>
-    </mailingLists>
-
     <scm>
-        <connection>scm:git:https://github.com/java-irclib/irclib.git</connection>
-        <developerConnection>scm:git:git@github.com:java-irclib/irclib.git</developerConnection>
-        <url>https://github.com/java-irclib/irclib</url>
+        <connection>scm:git:https://github.com/willies952002/irclib.git</connection>
+        <developerConnection>scm:git:git@github.com:willies952002/irclib.git</developerConnection>
+        <url>https://github.com/willies952002/irclib</url>
         <tag>head</tag>
     </scm>
     <issueManagement>
-        <url>https://github.com/java-irclib/irclib/issues</url>
+        <url>https://github.com/willies952002/irclib/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
-    <distributionManagement>
-        <repository>
-            <id>bintray</id>
-            <url>https://api.bintray.com/maven/irclib/irclib/org.schwering:irclib</url>
-        </repository>
-    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
